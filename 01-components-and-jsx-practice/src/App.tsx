@@ -4,6 +4,7 @@ import { Information } from './component/UserCard'
 import { DynamicInformation } from './tasks/03-DynamicJSX'
 import { Product } from './component/ProductCard'
 import { JSXRules } from './tasks/JSXRules'
+import MiniProfile from './tasks/MiniProfile'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <DynamicInformation></DynamicInformation>
       <Product></Product>
       <JSXRules></JSXRules>
+      <MiniProfile></MiniProfile>
     </>
   )
 }
