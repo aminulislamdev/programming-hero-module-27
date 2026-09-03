@@ -3,6 +3,7 @@ import {Welcome} from './component/welcome'
 import { Information } from './component/UserCard'
 import { DynamicInformation } from './tasks/03-DynamicJSX'
 import { Product } from './component/ProductCard'
+import { JSXRules } from './tasks/JSXRules'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Information></Information>
       <DynamicInformation></DynamicInformation>
       <Product></Product>
+      <JSXRules></JSXRules>
     </>
   )
 }
