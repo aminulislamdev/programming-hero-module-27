@@ -1,3 +1,4 @@
+import { Profile } from './01-ProfileCard/ProfileCard'
 import './App.css'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
 
   return (
     <>
+      <Profile></Profile>
     </>
   )
 }
