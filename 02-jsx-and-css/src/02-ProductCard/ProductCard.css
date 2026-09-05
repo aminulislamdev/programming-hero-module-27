@@ -1,0 +1,78 @@
+.productCard {
+  width: 320px;
+  background-color: #5e5a5a;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.productImage {
+  height: 220px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #77839b;
+  color: #f8f2f2;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product {
+  padding: 20px;
+}
+
+.productName {
+  margin: 0 0 15px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.priceAndRate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+}
+
+.rateIngStar {
+  margin: 0;
+  color: #f59e0b;
+  font-size: 16px;
+}
+
+.rate {
+  color: #e5ebeaef;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #111827;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #000;
+}
