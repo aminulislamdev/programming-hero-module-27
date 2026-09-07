@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import ProductCard from './components/ProductCard'
 import Profile from './components/Profile'
+import ProfileCard from './components/ProfileCard'
 import Status from './components/Status'
 import Student from './components/Student'
 import User from './components/User'
@@ -31,13 +32,24 @@ function App() {
     }
   ];
 
+  const UserData = {
+    name: 'Aminul Islam',
+    email: 'aminul.islam@example.com',
+    profession: 'Software Engineer',
+    location: 'Dhaka, Bangladesh'
+  };
+
+
   return <>
     <User name="Aminul Islam" age={21} />
-    <Student name="Aminul Islam" department='Computer Science & Technology' semester={5}/>
-    <Status name="Aminul" isActive={true}/>
-    <ProductCard name='i phone' price={15000} category='Phone' inStock= {true}></ProductCard>
+    <Student name="Aminul Islam" department='Computer Science & Technology' semester={5} />
+    <Status name="Aminul" isActive={true} />
+    <ProductCard name='i phone' price={15000} category='Phone' inStock={true}></ProductCard>
 
     <UserList users={users}></UserList>
+    <ProfileCard user={UserData} />
+
+
 
     <Header></Header>
     <Profile></Profile>
