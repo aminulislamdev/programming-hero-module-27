@@ -6,6 +6,7 @@ import Profile from './components/Profile'
 import ProfileCard from './components/ProfileCard'
 import Status from './components/Status'
 import Student from './components/Student'
+import StudentCard from './components/StudentCard'
 import User from './components/User'
 import UserList from './components/UserList'
 
@@ -39,6 +40,29 @@ function App() {
     location: 'Dhaka, Bangladesh'
   };
 
+  const students = [
+    {
+      name: "Aminul Islam",
+      roll: 101,
+      department: "Computer",
+      semester: 5,
+      isPresent: true,
+    },
+    {
+      name: "Rakib Hasan",
+      roll: 102,
+      department: "Computer",
+      semester: 5,
+      isPresent: false,
+    },
+    {
+      name: "Sakib Ahmed",
+      roll: 103,
+      department: "Computer",
+      semester: 5,
+      isPresent: true,
+    },
+  ];
 
   return <>
     <User name="Aminul Islam" age={21} />
@@ -49,6 +73,7 @@ function App() {
     <UserList users={users}></UserList>
     <ProfileCard user={UserData} />
 
+    <StudentCard Student={students} />
 
 
     <Header></Header>
